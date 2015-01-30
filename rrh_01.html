@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rachel Tech</title>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<!--Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/rrh_custom.css" rel="stylesheet">
+	<script src="js/respond.js"></script>
+</head>
+<body>
+<div class="container">
+
+<!--row 1: navbar-->
+	<div class="row">
+		<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="glyphicon glyphicon-arrow-down"></span>
+					  MENU
+					</button>
+				</div>
+					
+				<h4><a class="navbar-brand" href="#"><img src="img/rtech2.png" alt="RachelTech logo"
+						class="img-responsive img-rounded"></a></h4>
+				
+				<div class="collapse navbar-collapse" id="collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#profile"><span class="glyphicon glyphicon-asterisk">
+						   </span> Profile</a></li>  
+						<li><a href="#resume"><span class="glyphicon glyphicon-briefcase"></span> Resume</a></li> 
+						<li><a href="#speak"><span class="glyphicon glyphicon-list-alt"></span> Programs / Languages</a></li> 
+						<li><a href="https://github.com/rsersh"><span class="glyphicon glyphicon-ok"></span> Prior Code Projects </a></li>
+						
+						<li class="dropdown"><a href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-flash"></span> Other Projects</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Scarf</a></li>
+								<li><a href="http://www.mygrandscheme.blogspot.com/2009/04/quick-update.html">Turtle</a></li>
+								<li><a href="#">Wedding Dress</a></li>
+								<li><a href="http://www.mygrandscheme.blogspot.com/2009/04/look-to-dye-for.html">Dyeing</a></li>
+							</ul>					
+						</li>	
+						
+						<li><a href="#"><span class="glyphicon glyphicon-eye-close"></span> Photos</a></li><!--password req-->
+					</ul>
+				</div>
+			
+		</nav>
+	</div>
+
+<!--row 2-->
+	<header class="row">
+		<div class="col-lg-push-1 col-md-push-1 col-sm-push-1">
+		<div class="col-lg-4 col-md-5 col-sm-6">
+			<div class="profile_image">
+				<a href="rrh_01.html"><img src="img/rrh-map.jpg" alt="" width="425 px" height="250 px" class="img-rounded img-responsive"></a>
+			</div>
+		</div>
+		</div>
+<!--could become a row-->
+		<div id="profile">
+			<div class="row">
+				<div class="col-lg-7 col-md-6 col-sm-5">		
+					<h3 class="text-center">Profile</h3>
+					<p>I am a recent Computer Science graduate with entry level experience in developing software.  Prior
+					to completing my degree, I obtained extensive work experience as an administrative assistant focused
+					in project and office management.</p>
+					<p>My programming experience includes junior work in Java, C++, C, Ruby, Python, 
+					Bootstrap 3, PHP, and MySQL.  I have experience working in an AGILE / SCRUM environment. 
+					In my personal time, I enjoy developing in Linux and Mac environments. I have studied
+					beginning French and Latin and have completed the coursework for a minor in Mathematics. For the
+					non-computer stuff, I enjoy traveling, cooking, reading, sewing, crocheting, embroidery, and astronomy.
+					</p>
+				</div>
+			
+			<div class="col-lg-1"></div>
+		   </div> <!--end row-->
+		</div>
+	</header>
+<!--row 3-->
+	<div id="resume">
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-10">
+				<h3 class="text-center">Work Experience</h3>
+		
+				<div class="panel-group id="job-accordian">	
+				
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#mscr" class="accordian-title" data-toggle="collapse" 
+							  data-parent="#job-accordian">mscripts, LLC</a>
+							</h4>
+						</div>
+						<div id="mscr" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>mscripts is a mobile technology provider for pharmacies.  Acting to fill a vacancy
+								due to maternity leave, I provided assistance to the CEO and general office.  Duties 
+								included offsite planning, client invoicing, facilitation of weekly meetings, and
+								ordering of marketing collateral.</p>
+							</div>
+						</div>
+					</div>	<!--end panel-default-->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#rreef" class="accordian-title" data-toggle="collapse" 
+							  data-parent="#job-accordian">RREEF</a>
+							</h4>
+						</div>
+						<div id="rreef" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>RREEF is a real estate investment firm that is part of Deutsche Bank's Asset Management
+								division.  I provided administrative support to a Managing Director responsible
+								for overseeing a private Real Estate Investment Trust valued at over $10B.
+								Duties included assisting with heavy travel, providing a point of contact for
+								overseeing board members, and coordinating quarterly board meetings.</p>
+							</div>
+						</div>
+					</div><!--end panel-default-->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#azu" class="accordian-title" data-toggle="collapse" 
+							  data-parent="#job-accordian">Azul Systems, Inc.</a>
+							</h4>
+						</div>
+						<div id="azu" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>Azul Systems provides runtime platforms for executing Java-based applictions.
+								As an Executive Administrator to Global Sales of a developing startup, support 
+								included assistance with development of the CRM tool, formalizing processes for
+								customer seminars, and management of marketing collateral.</p>
+							</div>
+						</div>
+					</div><!--end panel-default-->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"><a href="#sun" class="accordian-title" data-toggle="collapse" 
+							  data-parent="#job-accordian">Sun Microsystems, Inc.</a>
+							</h4>
+						</div>
+						<div id="sun" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>I provided support to a Vice President responsible for the marketing of Sun's
+								High Performance Computing.  My duties included administering three of the department's
+								websites, including one external site focused on competitor marketing.  Work included
+								driving the weekly editorial calendar as well as HTML programming and site maintenance.</p>
+							</div>
+						</div>
+					</div><!--end panel-default-->
+				
+				</div>  <!--end panel-group-->
+			</div><!-- end col-lg-10-->
+		
+			<div class="col-lg-1"></div>
+		</div><!--close row-->
+   </div> <!--close resume-->
+
+<!--row 4-->
+	<div class="row">
+		<h4 class="text-center">Languages & Programs</h4>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5">
+			<ul>
+				<li>Java</li>
+				<li>C++</li>
+			</ul>
+		</div>
+		
+		<div class="col-lg-5">
+		<ul>
+				<li>Netbeans</li>
+				<li>TextWrangler</li>
+			</ul>
+		</div>
+		<div class="col-lg-1"></div>
+
+
+	</div> <!--end row 4-->
+<!--javascript-->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+	
+	</script>
+</div>
+</body>
+</html>

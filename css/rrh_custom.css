@@ -1,0 +1,41 @@
+/* this is a custom style sheet */
+body {
+	padding-top: 140px;
+	padding-left: 70px;
+	padding-right: 40px;
+	background-color: #F8F8FF;
+	/*background-color: #4682B4;*/
+	color: #ff00;
+}
+
+.glyphicon {
+	color: #3F2B22;
+}
+
+.active .glyphicon {
+	color: #CD5C5C;
+}
+
+.panel-default > .panel-heading {
+    background-color: #B0C4DE;
+    color: #333;
+}
+
+.panel-body {
+    padding: 15px;
+    background-color: #B0C4DE;
+}
+
+.white_row {
+	background-color: #F8F8FF;
+}
+
+.purple_row {
+	background-color: #4682B4;
+}
+
+.profile_image {
+	padding-top: 30px;
+	padding-left: 20px;
+	
+}
